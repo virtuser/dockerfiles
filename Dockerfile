@@ -7,4 +7,3 @@ RUN echo '<html><body><h1>WELCOME TO DOCKER CI/CD DEMO</h1></body></html>' > /va
 EXPOSE 80 443
 
 ENTRYPOINT ["/usr/sbin/httpd", "-D", "FOREGROUND"]
-
